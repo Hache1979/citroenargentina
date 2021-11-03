@@ -1,0 +1,582 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* @font-face {
+    font-family: Citroen-Black;
+    src: url(../fonts/Citroen-Black.ttf) format("truetype");
+}     */
+
+/* body{
+    font-family: Citroen-Black;
+    padding: 90px, 20px, 0;
+} */
+
+/* BOOTSTRAP NAVBAR */
+
+/* .navbar{
+    font-size: medium;
+} */
+
+/* .nav-item:hover{
+    background-color: rgb(187, 26, 26);
+    border-radius: 10px;
+} */
+
+/* .navbar-brand{
+    font-size: 30px;
+} */
+
+/* .btn{
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+} */
+
+/* .btn:hover{
+    background-color: rgb(80, 75, 75);
+    border: rgb(80, 75, 75);
+} */
+
+/* .bg-red{
+    background-color: rgb(255, 65, 45);
+} */
+
+/* GRID-HOME */
+
+/* .contenedorCentral_0{
+    display: grid;
+    grid-template-rows: 20px 360px 300px 100px;
+    grid-template-columns: 900px 300px;
+    grid-template-areas: 
+    "encabezado encabezado"
+    "C3 C3"
+    "te texto"
+    "footer footer"
+    ;
+} */
+
+/* .contenedorCentral_0{
+    display: grid;
+    justify-content: center;
+} */
+
+/* .header1{
+    grid-area: encabezado;
+} */
+
+/* .launch{
+    grid-area: C3;
+} */
+
+/* .red{
+    grid-area: te;
+    text-align: justify;
+} */
+
+/* .texto{
+    grid-area: texto;
+} */
+
+/* .footer__citroen{
+    grid-area: footer;
+    color: #b3b3b3;
+    text-align: center;
+    padding-left: 1%;
+    position: relative;
+} */
+
+/* .texto{
+    text-align: justify;
+    font-size: medium;
+} */
+
+/* .launch{
+    padding-left: 10px;
+} */
+
+/* .red{
+    padding-left: 10px;
+} */
+
+/* CAMBIOS BOOTSTRAP SECCIÓN HOME */
+
+/* .red h2{
+    font-size: 20px;
+}
+
+.red h3{
+    font-size: 18px;
+} */
+
+
+/* SECCION VEHICULOS */
+
+/* .vehiculos__muestra{
+    display: grid;
+    grid-template-columns: 500px 550px;
+    grid-template-rows: 20px 400px 450px 2px;
+    grid-template-areas: 
+    "encabezado2 encabezado2"
+    "cactus parrafos"
+    "parrafo_2 C5"
+    "footer_ footer_"
+} */
+
+/* .vehiculos__muestra{
+    display: grid;
+    justify-content: center;
+} */
+
+/* .header__navigation2{
+    grid-area: encabezado2;
+} */
+
+/* .vehiculos__muestra--imgCactus1{
+    grid-area: cactus;
+}
+
+.vehiculos__muestra--parrafoCactus1{
+    grid-area: parrafos;
+    text-align: justify;
+    font-size: medium;
+    padding-left: 20px;
+} */
+
+/* .vehiculos__muestra--parrafoC5ac{
+    grid-area: parrafo_2;
+    text-align: justify;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 30px;
+} */
+
+/* .vehiculos__muestra--imgC5ac{
+    grid-area: C5;
+} */
+
+/* .vehiculos__muestra--imgCactus1{
+    padding-left: 10px;
+    padding-top: 10px;
+} */
+
+/* .vehiculos__muestra--imgC5ac{
+    padding-top: 7px;
+    padding-left: 20px;
+} */
+
+/* .footer__citroen2{
+    grid-area: footer_;
+    text-align: center;
+}
+
+.footer__citroen2{
+    padding-top: 60px;
+    padding-left: 10px;
+    color: #b3b3b3;
+} */
+
+/* CAMBIOS BOOTSTRAP SECCION VEHICULOS  */
+
+/* .vehiculos__muestra--parrafoCactus1 h2{
+    font-size: 20px;
+}
+
+.vehiculos__muestra--parrafoC5ac h2{
+    font-size: 20px;
+} */
+
+
+/* SECCIÓN UNIVERSO CITROEN */
+
+/* .contenedorCentral_02{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 20px 280px 280px 120px;
+    grid-template-areas: 
+    "encabezado3 encabezado3"
+    "C3 C3_01"
+    "parrafo_02 parrafo_03"
+    "footer footer"
+} */
+
+/* .contenedorCentral_02{
+    display: grid;
+    justify-content: center;
+} */
+
+/* .header3{
+    grid-area: encabezado2;
+}
+
+.nuevoC3_01{
+    grid-area: C3;
+    padding-right: 20px;
+}
+
+.nuevoC3_02{
+    grid-area: C3_01;
+    padding-left: 20px;
+}
+
+.parrafo3{
+    grid-area: parrafo_02;
+    text-align: justify;
+    padding: 20px;
+    font-size: medium;
+}
+
+.parrafo4{
+    grid-area: parrafo_03;
+    padding: 20px;
+    text-align: justify;
+    font-size: medium;
+} */
+
+/* CAMBIOS BOOTSTRAP SECCIÓN UNIVERSO CITROEN */
+
+/* .parrafo3 h2{
+    font-size: 18px;
+}
+
+.parrafo4 h2{
+    font-size: 18px;
+} */
+
+
+/* SECCIÓN OFERTAS */
+
+/* .section__modelos{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 20px 250px 250px 100px;
+    grid-template-areas: 
+    "encabezado4 encabezado4"
+    "cactus C5"
+    "berlingoFurgon berlingoVp"
+    "footer footer"
+}
+
+.section__modelos{
+    display: grid;
+    justify-content: center;
+} */
+
+/* .header__navigation{
+    grid-area: encabezado4;
+} */
+
+/* .section__modelos--CactusC4{
+    grid-area: cactus;
+    padding-right: 20px;
+} */
+
+/* .section__modelos--CactusC4:hover{
+    transform: scale(2);
+    transition: 0.9s;
+} */
+
+/* .section__modelos--C5_Aircross{
+    grid-area: C5;
+    padding-left: 20px;
+} */
+
+/* .section__modelos--C5_Aircross:hover{
+    transform: scale(2);
+    transition: 0.9s;
+} */
+
+/* .section__modelos--berlingoFurgon{
+    grid-area: berlingoFurgon;
+    padding-right: 20px;
+} */
+
+/* .section__modelos--berlingoFurgon:hover{
+    transform: scale(2);
+    transition: 0.9s;
+} */
+
+/* .section__modelos--berlingoVp{
+    grid-area:berlingoVp;
+    padding-left: 20px;
+}
+
+.section__modelos--berlingoVp:hover{
+    transform: scale(2);
+    transition: 0.9s;
+} */
+
+/* RESPONSIVE SECCION OFERTA - MEDIA QUERY */
+
+/* MOBILES */
+
+
+/* @media screen and (max-width: 700px) and (min-width: 300px) {
+    .section__modelos{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 250px 250px 250px;
+        grid-template-areas: 
+        "encabezado4"
+        "cactus" 
+        "C5"
+        "berlingoFurgon"
+        "berlingoVp"
+        "footer"
+    }
+
+    .section__modelos--CactusC4{
+        grid-area: cactus;
+        padding: 10px;
+    }
+    
+    .section__modelos--C5_Aircross{
+        grid-area: C5;
+        padding: 10px;
+    }
+
+    .section__modelos--berlingoFurgon{
+        grid-area: berlingoFurgon;
+        padding: 10px;
+    }
+
+    .section__modelos--berlingoVp{
+        grid-area:berlingoVp;
+        padding: 10px;
+    }
+
+    .section__modelos--CactusC4:hover{
+    transform: scale(1);
+    }
+
+    .section__modelos--C5_Aircross:hover{
+        transform: scale(1);
+    }
+
+    .section__modelos--berlingoFurgon:hover{
+        transform: scale(1);
+    }
+
+    .section__modelos--berlingoVp:hover{
+        transform: scale(1);
+    }
+
+} */
+
+
+/* SECCIÓN CONTACT FORM */
+
+/* .contenedorCentral_04{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* body {
+    font-family: Citroen-Black;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(97, 97, 97);
+    background: white;
+} */
+
+/* .container {
+max-width: 500px;
+width: 100%;
+margin-top: 20px;
+} */
+
+/* #contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+font-family: Citroen-Black;
+font-size: medium;
+}
+
+#contact {
+background: #F9F9F9;
+padding: 15px;
+margin: 8px 0;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} */
+
+/* #contact h3 {
+display: block;
+font-size: 1.5rem;
+font-weight: 300;
+margin-bottom: 10px;
+} */
+
+/* fieldset {
+border: medium none !important;
+margin: 0 0 5px;
+min-width: 100%;
+padding: 0;
+width: 100%;
+} */
+
+/* #contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+width: 100%;
+border: 1px solid #ccc;
+background: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+} */
+
+/* #contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+-webkit-transition: border-color 0.3s ease-in-out;
+-moz-transition: border-color 0.3s ease-in-out;
+transition: border-color 0.3s ease-in-out;
+border: 1px solid #aaa;
+} */
+
+/* #contact textarea {
+height: 100px;
+max-width: 100%;
+resize: none;
+} */
+
+/* #contact button[type="submit"] {
+cursor: pointer;
+width: 100%;
+border: none;
+background: #af9d4c;
+color: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 15px;
+background-image: radial-gradient(#af9d4c, #5e521d)
+} */
+
+/* #contact button[type="reset"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #af9d4c;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  background-image: radial-gradient(#af9d4c, #5e521d)
+}  */
+
+/* #contact button[type="submit"]:hover {
+background: #a04343;
+-webkit-transition: background 0.3s ease-in-out;
+-moz-transition: background 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
+} */
+
+/* #contact button[type="submit"]:active {
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+} */
+
+/* #contact button[type="reset"]:hover {
+  background: #a04343;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+} */
+
+/* #contact button[type="reset"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+} */
+
+/* #contact button[type="reset"]{
+  font-family: Citroen-Black;
+} */
+
+/* #contact input:focus,
+#contact textarea:focus {
+outline: 0;
+border: 1px solid #aaa;
+} */
+
+/* ::-webkit-input-placeholder {
+color: #888;
+}
+
+:-moz-placeholder {
+color: #888;
+}
+
+:-ms-input-placeholder {
+color: #888;
+}
+
+.footer_1{
+    margin-top: 10px;
+    color: #b3b3b3;
+    text-align: center;
+} */
+
+
+/* OFERTAS  */
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    .section__modelos{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 250px 250px 250px;
+        grid-template-areas: 
+        "encabezado4"
+        "cactus" 
+        "C5"
+        "berlingoFurgon"
+        "berlingoVp"
+        "footer"
+    }
+
+    .section__modelos--CactusC4{
+        grid-area: cactus;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .section__modelos--C5_Aircross{
+        grid-area: C5;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .section__modelos--berlingoFurgon{
+        grid-area: berlingoFurgon;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .section__modelos--berlingoVp{
+        grid-area:berlingoVp;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .section__modelos--CactusC4:hover{
+    transform: scale(1);
+    text-align: center;
+    }
+
+    .section__modelos--C5_Aircross:hover{
+        transform: scale(1);
+    }
+
+    .section__modelos--berlingoFurgon:hover{
+        transform: scale(1);
+    }
+
+    .section__modelos--berlingoVp:hover{
+        transform: scale(1);
+    }
+
+}
