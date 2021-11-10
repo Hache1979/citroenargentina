@@ -428,7 +428,7 @@ fieldset {
   text-align: center;
 }
 
-// RESPONSIVE //
+// RESPONSIVE MOBILE//
 
 // HOME //
 
@@ -444,6 +444,10 @@ fieldset {
 
   .img-mobile-image {
     display: block !important;
+  }
+
+  .carousel-item {
+    padding-right: 10px;
   }
 
   .red {
@@ -469,113 +473,83 @@ fieldset {
   }
 }
 
+// VEHICULOS//
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+  .vehiculos__muestra {
+    display: inline;
+  }
+
+  .vehiculos__muestra--imgCactus1 img {
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+  }
+
+  .vehiculos__muestra--imgC5ac img{
+    width: 100%;
+    height: auto;
+    padding-right: 30px;
+  }
+
+  .vehiculos__muestra--parrafoCactus1 {
+    padding: 20px;
+  }
+
+  .vehiculos__muestra--parrafoC5ac{
+    padding: 30px;
+  }
+}
+
 // OFERTAS //
 
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .section__modelos {
-    display: grid;
+    display: inline;
     align-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20px 250px 250px 250px;
-    grid-template-areas:
-      "encabezado4"
-      "cactus"
-      "C5"
-      "berlingoFurgon"
-      "berlingoVp"
-      "footer";
-    & {
-      display: grid;
-      justify-content: center;
-    }
   }
 
-  .header__navigation {
-    grid-area: encabezado4;
-  }
-
-  .section__modelos--CactusC4 {
-    grid-area: cactus;
-    padding: 10px;
+  .section__modelos img {
+    width: 100%;
+    height: auto;
     text-align: center;
-  }
-
-  .section__modelos--C5_Aircross {
-    grid-area: C5;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .section__modelos--berlingoFurgon {
-    grid-area: berlingoFurgon;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .section__modelos--berlingoVp {
-    grid-area: berlingoVp;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .section__modelos--CactusC4 {
-    & :hover {
-      transform: none;
-    }
-  }
-  .section__modelos--C5_Aircross {
     & :hover {
       transform: none;
     }
   }
 
-  .section__modelos--berlingoFurgon {
-    & :hover {
-      transform: none;
-    }
+  .section__modelos--CactusC4 img {
+    padding-left: 10px;
   }
 
-  .section__modelos--berlingoVp {
-    & :hover {
-      transform: none;
-    }
-  }
 }
 
 //UNIVERSO CITROEN//
 
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .contenedorCentral_02 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20px 260px 330px 300px 350px 20px;
-    grid-template-areas:
-      "encabezado3"
-      "C3"
-      "parrafo_02"
-      "C3_01"
-      "parrafo_03"
-      "footer";
+    display: inline;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 20px 260px 330px 300px 350px 20px;
+    // grid-template-areas:
+    //   "encabezado3"
+    //   "C3"
+    //   "parrafo_02"
+    //   "C3_01"
+    //   "parrafo_03"
+    //   "footer";
   }
 
-  .contenedorCentral_02 {
-    display: grid;
-    justify-content: center;
-  }
-
-  .header3 {
-    grid-area: encabezado2;
-  }
-
-  .nuevoC3_01 {
-    grid-area: C3;
-    padding-right: 20px;
-    text-align: center;
-  }
-
-  .nuevoC3_02 {
-    grid-area: C3_01;
+  .nuevoC3_01 img {
+    width: 100%;
+    height: auto;
     padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .nuevoC3_02 img {
+    width: 100%;
+    height: auto;
     text-align: center;
   }
 
@@ -599,79 +573,3 @@ fieldset {
     }
   }
 }
-
-// VEHICULOS//
-
-@media screen and (max-width: 700px) and (min-width: 300px) {
-  .vehiculos__muestra {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20px 400px 330px 380px 300px 2px;
-    grid-template-areas:
-      "encabezado2"
-      "cactus"
-      "parrafos"
-      "C5"
-      "parrafo_2"
-      "footer_";
-    & {
-      display: grid;
-      justify-content: center;
-    }
-  }
-
-  .header__navigation2 {
-    grid-area: encabezado2;
-  }
-
-  .vehiculos__muestra--imgCactus1 {
-    grid-area: cactus;
-    align-items: center;
-    & {
-      padding-left: 30px;
-      padding-top: 10px;
-    }
-  }
-
-  .vehiculos__muestra--parrafoCactus1 {
-    grid-area: parrafos;
-    text-align: justify;
-    font-size: medium;
-    padding-left: 10px;
-    padding-right: 30px;
-    & h2 {
-      font-size: 20px;
-    }
-  }
-
-  .vehiculos__muestra--parrafoC5ac {
-    grid-area: parrafo_2;
-    text-align: justify;
-    font-size: medium;
-    padding-left: 10px;
-    padding-right: 30px;
-    & h2 {
-      font-size: 20px;
-    }
-  }
-
-  .vehiculos__muestra--imgC5ac {
-    grid-area: C5;
-    align-items: center;
-    & {
-      padding-top: 7px;
-      padding-left: 20px;
-    }
-  }
-
-  .footer__citroen2 {
-    grid-area: footer_;
-    text-align: center;
-    & {
-      padding-top: 60px;
-      padding-left: 10px;
-      color: #b3b3b3;
-    }
-  }
-}
-
