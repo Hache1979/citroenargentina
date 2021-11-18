@@ -380,7 +380,8 @@ fieldset {
     height: auto;
     text-align: center; }
     .section__modelos img :hover {
-      transform: none; }
+      transform: scale(1);
+      transition: none; }
   .section__modelos--CactusC4 img {
     padding-left: 10px; } }
 

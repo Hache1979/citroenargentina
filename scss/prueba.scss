@@ -513,8 +513,9 @@ fieldset {
     width: 100%;
     height: auto;
     text-align: center;
-    & :hover {
-      transform: none;
+    & :hover  {
+        transform: scale(1);
+        transition: none;
     }
   }
 
@@ -524,20 +525,13 @@ fieldset {
 
 }
 
+
+
 //UNIVERSO CITROEN//
 
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .contenedorCentral_02 {
     display: inline;
-    // grid-template-columns: 1fr;
-    // grid-template-rows: 20px 260px 330px 300px 350px 20px;
-    // grid-template-areas:
-    //   "encabezado3"
-    //   "C3"
-    //   "parrafo_02"
-    //   "C3_01"
-    //   "parrafo_03"
-    //   "footer";
   }
 
   .nuevoC3_01 img {
