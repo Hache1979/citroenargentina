@@ -379,9 +379,9 @@ fieldset {
     width: 100%;
     height: auto;
     text-align: center; }
-    .section__modelos img :hover {
-      transform: scale(1);
-      transition: none; }
+  .section__modelos img:hover {
+    transform: scale(1);
+    transition: none; }
   .section__modelos--CactusC4 img {
     padding-left: 10px; } }
 
