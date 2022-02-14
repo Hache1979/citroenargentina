@@ -99,15 +99,25 @@
 
         <section class="red">
             <h2>TE ACOMPAÑAMOS EN TU COMPRA</h2>
-            <h3>Encontrá tu concesionario más cercano:</h3>
+            <h3 class="concesionarios">ENCONTRA TU CONCESIONARIO MAS CERCANO:</h3>
                 <iframe
                 src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d105089.45972048817!2d-58.438451!3d-34.603008!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1633208289260!5m2!1ses-419!2sar"
-                width="750" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
+                width="400" height="255" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
 
         </section>
 
+        <section class="menu" id="menu-prov">
+            <div id="title-province"></div>
+            <div id="dealers-list">
+                <select name="provincia" id="select1" class="provincias">
+                    <option disabled selected>PROVINCIA</option>
+                </select>
+               <div id="direcciones" class="select-direccion"></div>
+                
+
+            </div>
+        </section>
+        <br>
         <section class="texto">
             <p>Del 2CV al CX, del Traction al Mehari, del Type H al Visa, del CX al C4 Cactus, a través del concept car
                 Cxperience, C3 Aircross y C4 Cactus, Citroën ha estado observando a la gente durante años. Inspirados en
@@ -135,6 +145,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
   crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="./js/index.js"></script>
 
 </body>
 

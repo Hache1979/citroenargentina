@@ -1,0 +1,246 @@
+[ 
+    {
+        "id":1,
+        "nombre":"ANDINA FRANCE S.A.",
+        "direccion":"Av. Felix de la Colina, esq. Av. 1 de Marzo",
+        "provincia":"La Rioja"
+    },
+    {
+        "id":2,
+        "nombre":"AUTOCIEL",
+        "direccion":"Calle Colectora Ruta 9 N 2227, Acceso Sur Las Lomas",
+        "provincia":"Jujuy"
+    },
+    {
+        "id":3,
+        "nombre":"AUTOMOBILES LYON S.A.",
+        "direccion":"Av. Rivadavia 12048",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":4,
+        "nombre":"AUTOMOTORES J. PESADO CASTRO S.A.",
+        "direccion":"Av. Eva Peron 5232",
+        "provincia":"Santa Fe"
+    },
+    {
+        "id":5,
+        "nombre":"AVEC",
+        "direccion":"Av. Colon 4800 esquina 9 de Julio",
+        "provincia":"Cordoba"
+    },
+    {
+        "id":6,
+        "nombre":"CHAMBORD",
+        "direccion":"AV. SANTA FE 2458 - Martinez",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":7,
+        "nombre":"CI'DANE S.A.",
+        "direccion":"Av. Presidente Peron 8975",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":8,
+        "nombre":"CITRONORTE S.A.",
+        "direccion":"Av. Mitre 1664",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":9,
+        "nombre":"DAMVILLE S.A.",
+        "direccion":"Av. Hipolito Yrigoyen 8563",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":10,
+        "nombre":"D'ARC LIBERTADOR S.A.",
+        "direccion":"Av. Del Libertador 6988",
+        "provincia":"CABA"
+    },
+    {
+        "id":11,
+        "nombre":"DU SUD S.R.L.",
+        "direccion":"General Manuel Belgrano 16",
+        "provincia":"Tierra del Fuego"
+    },
+    {
+        "id":12,
+        "nombre":"ESPRIT POURTAU S.A.",
+        "direccion":"Av. 44 Nro. 2518",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":13,
+        "nombre":"ESSOR S.R.L.",
+        "direccion":"San Martin 1049",
+        "provincia":"Catamarca"
+    },
+    {
+        "id":14,
+        "nombre":"FIORASI E HIJOS S.A.",
+        "direccion":"Av. Belgrano 177",
+        "provincia":"Chubut"
+    },
+    {
+        "id":15,
+        "nombre":"FORTUNATO FORTINO Y CIA S.R.L.",
+        "direccion":"Av. 24 de Septiembre 1398",
+        "provincia":"Tucuman"
+    },
+    {
+        "id":16,
+        "nombre":"GERLI AUTOMOTORES S.A.",
+        "direccion":"Av Tomas de Rocamora 225",
+        "provincia":"Entre Rios"
+    },
+    {
+        "id":17,
+        "nombre":"GRAFF-SCHWERDT AUTOMOTORES S.A.",
+        "direccion":"J. Newbery esq. Alsina",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":18,
+        "nombre":"HARASIC VERA S.A.",
+        "direccion":"Velez Sarsfield 168",
+        "provincia":"Santa Cruz"
+    },
+    {
+        "id":19,
+        "nombre":"HICSA S.A.",
+        "direccion":"Av. Perticone 925",
+        "provincia":"Neuquen"
+    },
+    {
+        "id":20,
+        "nombre":"L`EFFORT S.A. - TANDIL",
+        "direccion":"Av. Comandante Espora 1284",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":21,
+        "nombre":"L`EFFORT S.A. - MDQ",
+        "direccion":"Av. Constitucion 7656",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":22,
+        "nombre":"LA VOITURE S.A.",
+        "direccion":"Coronel Ramon Lista 5050",
+        "provincia":"CABA"},
+    {
+        "id":23,
+        "nombre":"LE MANS AUTOMOVILES S.A.",
+        "direccion":"Hipolito Yrigoyen 277",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":24,
+        "nombre":"LE PONT S.A.",
+        "direccion":"Lateral de Circunvalacion Sur-Este 1575",
+        "provincia":"San Juan"
+    },
+    {
+        "id":25,
+        "nombre":"LOURDES S.A.",
+        "direccion":"Caseros 1659",
+        "provincia":"Salta"},
+    {
+        "id":26,
+        "nombre":"MARSEILLE S.A.",
+        "direccion":"Corrientes 2068",
+        "provincia":"Santa Fe"
+    },
+    {
+        "id":27,
+        "nombre":"NATION LITORAL S.A.",
+        "direccion":"BELGRANO 2601 Y AV. ALLEN - SANTA FE",
+        "provincia":"Santa Fe"
+    },
+    {
+        "id":28,
+        "nombre":"NIZA AUTO S.A.",
+        "direccion":"Av. 9 de Julio 939",
+        "provincia":"Formosa"
+    },
+    {
+        "id":29,
+        "nombre":"PARIS AUTOS S.A.",
+        "direccion":"Av. Santos Ortiz 1228 (Ex Ruta 7) y Calle Lateral Colectora Sur Este",
+        "provincia":"San Luis"
+    },
+    {
+        "id":30,
+        "nombre":"PARRA AUTOMOTORES S.A.",
+        "direccion":"Avenida Castro Barros 1125",
+        "provincia":"Cordoba"
+    },
+    {
+        "id":31,
+        "nombre":"PI INGENIERIA S.A.",
+        "direccion":"Calle 13 entre N 363 e/ 528 y 529",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":32,
+        "nombre":"RODANO AUTOMOTORES S.A.",
+        "direccion":"Ruta 8 Km 222,82",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":33,
+        "nombre":"ROMA AUTOMOTORES",
+        "direccion":"Av. Bartolome Mitre 639",
+        "provincia":"Mendoza"
+    },
+    {
+        "id":34,
+        "nombre":"ROUGE AUTOMOBILES S.A.",
+        "direccion":"Av. 25 de Mayo 1113",
+        "provincia":"Chaco"
+    },
+    {
+        "id":35,
+        "nombre":"SANTIAGO GIODA AUTOMOTORES S.A.",
+        "direccion":"Av. Savio 325",
+        "provincia":"Cordoba"
+    },
+    {
+        "id":36,
+        "nombre":"SEEWALD AUTOMOTORES S.A.",
+        "direccion":"Av. Rep. Oriental del Uruguay 3915",
+        "provincia":"Misiones"
+    },
+    {
+        "id":37,
+        "nombre":"SUR FRANCE S.A.",
+        "direccion":"La Barraca Mall, Las Canas 1833 PB Local C",
+        "provincia":"Mendoza"
+    },
+    {
+        "id":38,
+        "nombre":"TOULON S.A.",
+        "direccion":"Lima 507",
+        "provincia":"CABA"
+    },
+    {
+        "id":39,
+        "nombre":"TOURS AUTOMOTORES S.A.",
+        "direccion":"Ruta Panamericana Km 46,8 Acceso Pilar",
+        "provincia":"Buenos Aires"
+    },
+    {
+        "id":40,
+        "nombre":"VERNON S.A.",
+        "direccion":"Av. Pedro Luro 2005",
+        "provincia":"La Pampa"
+    },
+    {
+        "id":41,
+        "nombre":"VERSALLES AUTOMOTORES S.A.",
+        "direccion":"Av. Belgrano Sur 1409",
+        "provincia":"Santiago del Estero"
+    }
+]
