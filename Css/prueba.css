@@ -7,6 +7,11 @@
   font-family: Citroen-Black;
   src: url(../fonts/Citroen-Black.ttf) format("truetype"); }
 
+  @font-face {
+    font-family: Citroen_light;
+    src: url(../fonts/Citroen_light.ttf) format("truetype"); }
+
+
 body {
   font-family: Citroen-Black;
   padding: 90px, 20px, 0;
@@ -69,7 +74,7 @@ body {
 
 .texto {
   grid-area: texto; 
-  font-family: citroen;
+  font-family: 'Citroen_light';
 }
 
 .menu{
@@ -97,7 +102,7 @@ body {
   width: 363px;
   border-color: rgb(162, 160, 160);
   background-color: white;
-  font-family: Citroen;
+  font-family: 'Citroen_light';
   font-size: 15px;
   margin-left: 10px;
   margin-top: 2px;
@@ -111,7 +116,7 @@ body {
   width: 363px;
   border-color: rgb(162, 160, 160);
   background-color: white;
-  font-family: Citroen;
+  font-family: 'Citroen_light';
   font-size: 15px;
   margin-left: 10px;
   margin-top: 25px;
@@ -126,7 +131,7 @@ body {
   border-style: solid;
   border-width:2px;
   background-color: white;
-  font-family: Citroen;
+  font-family:'Citroen_light';
   font-size: 15px;
   margin-left: 10px;
   margin-top: 25px;
@@ -137,16 +142,16 @@ body {
   height: 30px;
   width: 200px;
   border-color: rgb(162, 160, 160);
-  font-family: Citroen;
+  font-family: 'Citroen_light';
   font-size: 15px
 }
 
 .form-control{
-  font-family: Citroen;
+  font-family: 'Citroen_light';
 }
 
 .concesionarios{
-  font-family: citroen;
+  font-family: 'Citroen_light';
 }
 
 .title-type{
@@ -191,11 +196,11 @@ body {
   text-align: justify;
   font-size: medium;
   padding-left: 20px; 
-  font-family: citroen;
+  font-family: 'Citroen_light';
 }
   .vehiculos__muestra--parrafoCactus1 h2 {
   font-size: 20px;
-  font-family: citroen-black;
+  font-family: 'Citroen-black';
   }
 
 .vehiculos__muestra--parrafoC5ac {
@@ -204,11 +209,11 @@ body {
   font-size: medium;
   padding-left: 10px;
   padding-right: 30px; 
-  font-family: citroen;
+  font-family: 'Citroen_light';
 }
   .vehiculos__muestra--parrafoC5ac h2 {
     font-size: 20px; 
-    font-family: citroen-black;
+    font-family: 'Citroen-black';
   }
 
 .vehiculos__muestra--imgC5ac {
@@ -258,7 +263,7 @@ body {
 }
   .parrafo3 h2 {
     font-size: 18px;
-    font-family: citroen-black;
+    font-family: 'Citroen-black';
   }
 
 .parrafo4 {
@@ -270,7 +275,7 @@ body {
 }
   .parrafo4 h2 {
     font-size: 18px; 
-    font-family: citroen-black;
+    font-family: 'Citroen-black';
   }
 
 /* SECCIÓN OFERTAS */
@@ -318,7 +323,7 @@ body {
     transition: 0.9s; }
 
 .text-center{
-  font-family: citroen;
+  font-family: 'Citroen_light';
   font-size: 33px;
 }
 
@@ -370,7 +375,7 @@ body {
   flex-direction: column; }
 
 body {
-  font-family: Citroen-Black;
+  font-family: 'Citroen-Black';
   font-weight: 100;
   font-size: 10px;
   line-height: 30px;
@@ -438,7 +443,7 @@ body {
   #contact button[type="reset"]:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
   #contact button[type="reset"] {
-    font-family: Citroen-Black; }
+    font-family: 'Citroen-Black'; }
 
 fieldset {
   border: medium none !important;
@@ -502,7 +507,7 @@ fieldset {
   background: #a04343;
   width: 250px;
   margin-top: 150px;
-  font-family: Citroen-black;
+  font-family: 'Citroen-black';
   font-weight: bold;
 }
 
