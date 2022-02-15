@@ -18,7 +18,7 @@ function callback(data) {
 
 $.ajax({
     type: "Get",
-    url: "../json/concesionarios.json",
+    url: "./json/concesionarios.json",
     dataType: "json",
     async: false,
     success: function(data) {
