@@ -523,7 +523,7 @@ color: #888;
 
 /* OFERTAS  */
 
-@media screen and (max-width: 700px) and (min-width: 300px) {
+/* @media screen and (max-width: 700px) and (min-width: 300px) {
     .section__modelos{
         display: grid;
         align-items: center;
@@ -579,4 +579,4 @@ color: #888;
         transform: scale(1);
     }
 
-}
+} */

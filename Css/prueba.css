@@ -349,14 +349,14 @@ body {
 
 .btn-efcompra{
   background-color: green;
+  margin-top: -60px;
 }.btn-efcompra:hover{
   background-color: rgb(4, 82, 4);
 }
 
 .table{
-  width: 103%;
+  width: 100%;
 }
-
 
 .footer_testing{
   text-align:center;
@@ -372,7 +372,7 @@ body {
 body {
   font-family: Citroen-Black;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 30px;
   color: #616161;
   background: white; }
@@ -591,3 +591,5 @@ fieldset {
     font-size: medium; }
     .parrafo4 h2 {
       font-size: 18px; } }
+
+      
