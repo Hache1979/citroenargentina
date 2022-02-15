@@ -8,15 +8,15 @@
   src: url(../fonts/Citroen-Black.ttf) format("truetype"); }
 
 @font-face {
-  font-family: Citroen_light;
+  font-family: Citroen_Light;
   src: url(../fonts/Citroen_Light.ttf) format("truetype"); }
 
 @font-face {
-  font-family: Citroen_regular;
+  font-family: Citroen_Regular;
   src: url(../fonts/Citroen_Regular.ttf) format("truetype"); }
 
 body {
-  font-family: Citroen-Black;
+  font-family: 'Citroen-Black';
   padding: 90px, 20px, 0;
   width: auto; }
 
@@ -134,7 +134,7 @@ body {
   border-style: solid;
   border-width:2px;
   background-color: white;
-  font-family:'Citroen_Light';
+  font-family: 'Citroen_Light';
   font-size: 15px;
   margin-left: 10px;
   margin-top: 25px;
@@ -168,7 +168,7 @@ body {
 .nombreDealer{
   font-size: 14px;
   font-weight: bold;
-  font-family: citroen;
+  font-family: 'Citroen_Light';
   margin-bottom: -2px;
 }
 
@@ -202,7 +202,7 @@ body {
   font-family: 'Citroen_Light';
 }
   .vehiculos__muestra--parrafoCactus1 h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Citroen-Black';
   }
 
@@ -215,7 +215,7 @@ body {
   font-family: 'Citroen_Light';
 }
   .vehiculos__muestra--parrafoC5ac h2 {
-    font-size: 20px; 
+    font-size: 18px; 
     font-family: 'Citroen-Black';
   }
 
@@ -262,7 +262,7 @@ body {
   text-align: justify;
   padding: 20px;
   font-size: medium; 
-  font-family: citroen;
+  font-family: 'Citroen_Light';
 }
   .parrafo3 h2 {
     font-size: 18px;
@@ -274,7 +274,7 @@ body {
   padding: 20px;
   text-align: justify;
   font-size: medium; 
-  font-family: citroen;
+  font-family: 'Citroen_Light';
 }
   .parrafo4 h2 {
     font-size: 18px; 
@@ -394,7 +394,7 @@ body {
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact textarea{
-  font-family: Citroen;
+  font-family: 'Citroen_Light';
   font-size: medium; }
 
 #contact {
@@ -492,11 +492,9 @@ fieldset {
   /* FOOTER */
 
 .footer_1 {
+  padding-top: 60px;
+  padding-left: 10px;
   color: #b3b3b3;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
   text-align: center;
 }
 
@@ -518,6 +516,8 @@ fieldset {
 
 /* MEDIA QUERIES   */
 
+/* MEDIA QUERY INDEX */
+
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .contenedorCentral_0 {
     margin-left: 350px;
@@ -534,7 +534,7 @@ fieldset {
     .red h2 {
       font-size: 20px; }
     .red h3 {
-      font-size: 18px; }
+      font-size: 17px; }
     .red iframe {
       width: 100% !important; }
   .texto {
@@ -542,6 +542,9 @@ fieldset {
     .texto p {
       padding: 10px;
       width: 100%; } }
+
+
+/* MEDIA QUERY VEHICULOS */
 
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .vehiculos__muestra {
@@ -559,6 +562,9 @@ fieldset {
   .vehiculos__muestra--parrafoC5ac {
     padding: 30px; } }
 
+
+/* MEDIA QUERY OFERTAS */
+
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .section__modelos {
     display: inline;
@@ -572,6 +578,8 @@ fieldset {
     transition: none; }
   .section__modelos--CactusC4 img {
     padding-left: 10px; } }
+
+/* MEDIA QUERY UNIVERSO CITROEN */
 
 @media screen and (max-width: 700px) and (min-width: 300px) {
   .contenedorCentral_02 {
