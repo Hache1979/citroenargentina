@@ -492,7 +492,7 @@ fieldset {
   /* FOOTER */
 
 .footer_1 {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-left: 10px;
   color: #b3b3b3;
   text-align: center;
@@ -511,8 +511,6 @@ fieldset {
   font-family: 'Citroen-Black';
   font-weight: bold;
 }
-
-
 
 /* MEDIA QUERIES   */
 

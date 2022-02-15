@@ -21,6 +21,7 @@ $(function(){
     $('#contact').submit(function (event){
     event.preventDefault();
         $('#contact').fadeOut();
+        $('.footer_1').fadeOut();
         $('.message').css("display", "block");
         setTimeout(reloadTab, 3000);
     });
