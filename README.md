@@ -8,7 +8,7 @@
   <h3 align="center">Citroën Site</h3>
 
   <p align="center">
-    Example of a smaller and faster site version 
+    Samller and faster version of the original Citroën Site
     <br />
     <a href="https://github.com/Hache1979/citroenargentina"><strong>Explore the docs »</strong></a>
     <br />
