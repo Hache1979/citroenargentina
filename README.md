@@ -42,7 +42,7 @@
 
 [Citroën Argentina](https://hache1979.github.io/citroenargentina/)
 
-Citroen_Argentina is a fully responsive development, created as a small version of the current Citroën site. The project was built from scratch, and was empowered using Bootstrap and the Js/ jQuery plugins. The structure is highly customizable, intuitive and easy to use. Fits many screen resolutions, from small mobile devices to large desktops.
+Citroen_Argentina is a fully responsive development, created as a small version of the current Citroën site. The project was built from scratch, and was empowered using Bootstrap and Js/ jQuery plugins. The structure is highly intuitive and easy to use. Fits most of the screen resolutions, from small mobile devices to large desktops.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
