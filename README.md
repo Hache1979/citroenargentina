@@ -5,7 +5,7 @@
     <img src="https://github.com/Hache1979/citroenargentina/blob/main/Multimedia/CITROEN_Bloc_Marque_2016_RGB.jpg" alt="Logo" width="auto" height="100">
   </a>
 
-  <h3 align="center">Citroën Site</h3>
+  <h3 align="center">Citroën Argentina</h3>
 
   <p align="center">
     Smaller and faster version of the original Citroën Site
