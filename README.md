@@ -60,7 +60,7 @@ Citroen_Argentina is a fully responsive development, created as a small version 
 
 ## Usage
 
-The development can be used by unexperienced programers, in order to see how to implement a very simple site with theirs first tools.
+The site can be used by rookie developers, in order to understand that is possible to create a very simple web-page with theirs first tools.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
